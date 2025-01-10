@@ -112,15 +112,15 @@ export default function Home() {
         </div>
 
         <div className="image-wrapper">
-          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#111]">
+          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
               alt="Questoria Character Creation Screen"
               className="object-scale-down"
-              objectFit="cover"
+              objectFit="fit"
               quality={100}
               fill
-              sizes="(min-width: 726px) 70vw, 100vw"
+              sizes="(min-width: 350px) 70vw, 100vw"
             />
           </div>
         </div>
@@ -135,12 +135,12 @@ export default function Home() {
         className="w-full flex flex-col-reverse lgp:flex-row items-center justify-center lgp:justify-between gap-12 lgp:gap-4 py-[120px]"
       >
         <div className="image-wrapper">
-          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#111]">
+          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
               alt="Questoria Character Creation Screen"
               className="object-scale-down"
-              objectFit="cover"
+              objectFit="fit"
               quality={100}
               fill
               sizes="(min-width: 726px) 70vw, 100vw"
@@ -195,12 +195,12 @@ export default function Home() {
         </div>
 
         <div className="image-wrapper">
-          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#111]">
+          <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
               alt="Questoria Character Creation Screen"
               className="object-scale-down"
-              objectFit="cover"
+              objectFit="fit"
               quality={100}
               fill
               sizes="(min-width: 726px) 70vw, 100vw"
@@ -389,19 +389,96 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-full flex flex-col items-center justify-center py-16 bg-gradient-to-r from-purple-600 to-blue-500 rounded-xl">
-        <h2 className="text-3xl font-bold text-white mb-4">
-          Begin Your Epic Journey
-        </h2>
-        <p className="text-white text-lg mb-8 text-center max-w-2xl px-4">
-          Join the future of tabletop gaming. Create your character, choose your setting, and let our 
-          AI Game Master guide you through unforgettable adventures - all from your mobile device.
-        </p>
-        <CTAButton />
-        <p className="text-sm text-white/80 mt-4">
-          +100 players have already joined
-        </p>
+      {/* Pricing Section */}
+<section className="w-full mb-24">
+  <h2 className="text-[28px] font-bold text-center mb-6">Early Access Offer</h2>
+  <p className="text-gray-400 text-center mb-12 max-w-lg mx-auto">
+    Join our growing community of adventurers with our special launch pricing
+  </p>
+  
+  {/* Single Pro Tier */}
+  <div className="max-w-sm mx-auto p-8 rounded-2xl border border-purple-500 
+       bg-black/50 backdrop-blur-sm relative overflow-hidden
+       hover:shadow-[0_0_50px_rgba(168,85,247,0.15)] transition-all duration-300">
+    {/* Special Offer Badge */}
+    <div className="absolute top-4 right-4 bg-purple-500 text-xs px-3 py-1.5 rounded-full font-medium">
+      Limited Time
+    </div>
+
+    {/* Pricing Header */}
+    <div className="mb-6">
+      <h3 className="text-2xl font-bold mb-2">Founder's Access</h3>
+      <p className="text-gray-400 text-sm">Be among the first to shape Questoria</p>
+    </div>
+
+    {/* Price */}
+    <div className="mb-8">
+      <div className="flex items-end gap-2 mb-1">
+        <span className="text-4xl font-bold">$9.99</span>
+        <span className="text-gray-400 mb-1.5">/month</span>
       </div>
+      <p className="text-sm text-purple-400">Special early access pricing</p>
+    </div>
+
+    {/* Features */}
+    <ul className="space-y-4 mb-8">
+      <li className="flex items-start gap-3">
+        <span className="text-purple-500 text-lg">✓</span>
+        <span>Unlimited campaigns and characters</span>
+      </li>
+      <li className="flex items-start gap-3">
+        <span className="text-purple-500 text-lg">✓</span>
+        <span>Access to all game systems and settings</span>
+      </li>
+      <li className="flex items-start gap-3">
+        <span className="text-purple-500 text-lg">✓</span>
+        <span>Advanced AI storytelling features</span>
+      </li>
+      <li className="flex items-start gap-3">
+        <span className="text-purple-500 text-lg">✓</span>
+        <span>Early access to new features</span>
+      </li>
+      <li className="flex items-start gap-3">
+        <span className="text-purple-500 text-lg">✓</span>
+        <span>Founder's badge and exclusive content</span>
+      </li>
+    </ul>
+
+    {/* Additional Info */}
+    <p className="text-center text-sm text-gray-500 mt-6">
+      7-day money-back guarantee • Cancel anytime
+    </p>
+  </div>
+</section>
+
+{/* Enhanced Final CTA */}
+<div className="w-full flex flex-col items-center justify-center py-20 rounded-3xl shadow-[0_0_100px_rgba(168,85,247,0.2)] relative overflow-hidden">
+  {/* Background Image */}
+  <Image
+    src="/bannerquestoria.png"
+    alt="Background"
+    fill
+    className="object-cover opacity-20"
+    quality={100}
+    priority
+  />
+  {/* Overlay gradient */}
+  <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80"></div>
+  
+  <h2 className="relative z-10 text-4xl md:text-5xl font-bold text-white mb-6 text-center">
+    Begin Your Epic Journey Today
+  </h2>
+  <p className="relative z-10 text-white text-xl mb-10 text-center max-w-2xl px-4">
+    Join the future of tabletop gaming. Create your character, choose your setting, and let our
+    AI Game Master guide you through unforgettable adventures - all from your mobile device.
+  </p>
+  <div className="relative z-10 transform hover:scale-105 transition-transform duration-300">
+    <CTAButton size="large" />
+  </div>
+  <p className="relative z-10 text-sm text-white/80 mt-6 font-medium">
+    +100 players have already joined
+  </p>
+</div>
     </main>
   );
 }
