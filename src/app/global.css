@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #1a1a1a; /* Fondo oscuro para un mejor contraste */
+  color: #f5f5f5;
+}
+
+/* Animated Gradient Text */
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    #fff4cc,
+    #ffe680,
+    #ffd700,
+    #ffc700,
+    #ffd700,
+    #ffe680,
+    #fff4cc,
+    #ffe680,
+    #ffd700,
+    #ffc700
+  );
+
+  background-size: 300% 300%;
+  background-clip: text;
+  animation: gradientText 3s ease-in-out infinite;
+}
+
+@keyframes gradientText {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Button Animated Glowing Border */
+.button-wrapper {
+  @apply relative w-[142px] h-[42px] bg-gradient-to-b from-[#333] to-[#131313] flex items-center justify-center overflow-hidden rounded-3xl transition-all duration-200;
+}
+
+.button-wrapper:hover {
+  @apply scale-105 shadow-[0_0_100px_16px_#7b3bfc70];
+}
+
+.button-wrapper:active {
+  @apply scale-100;
+}
+
+.button-wrapper::before {
+  background: conic-gradient(
+    rgba(255, 223, 195) 15deg,
+    rgba(212, 149, 255) 30deg,
+    rgb(232, 175, 18) 45deg,
+    transparent 60deg
+  );
+  @apply absolute z-10 h-[330%] w-[100%] left-[-0%] top-[-100%] content-[''] animate-border-spin;
+}
+
+.button-wrapper::after {
+  background: conic-gradient(
+    transparent 180deg,
+    rgba(255, 223, 195) 15deg,
+    rgba(212, 149, 255) 30deg,
+    rgb(232, 175, 18) 45deg,
+    transparent 250deg
+  );
+  @apply absolute z-10 h-[330%] w-[100%] left-[-0%] top-[-100%] content-[''] animate-border-spin;
+}
+
+/* Image Animated Glowing Border */
+.image-wrapper {
+  @apply relative max-w-[525px] w-full max-h-[430px] h-full lgp:h-[430px] aspect-[5/4] lgp:aspect-auto bg-[#333] flex items-center justify-center overflow-hidden rounded-2xl;
+}
+
+.image-wrapper::before {
+  background: conic-gradient(
+    rgba(255, 223, 195) 15deg,
+    rgba(212, 149, 255) 30deg,
+    rgb(232, 175, 18) 45deg,
+    transparent 40deg
+  );
+  @apply absolute z-10 h-[200%] w-[200%] left-[-50%] top-[-50%] content-[''] animate-border-spin;
+}
+
+.image-wrapper::after {
+  background: conic-gradient(
+    transparent 180deg,
+    rgba(255, 223, 195) 15deg,
+    rgba(212, 149, 255) 30deg,
+    rgb(232, 175, 18) 45deg,
+    transparent 220deg
+  );
+  @apply absolute z-10 h-[200%] w-[200%] left-[-50%] top-[-50%] content-[''] animate-border-spin;
+}
+
+/* Timeline Styles */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #ff5f6d, #ffc371);
+  z-index: 0;
+  border-radius: 100%;
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 32px;
+  background: radial-gradient(circle, #ff5f6d, #ffc371);
+  border-radius: 50%;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+  transform: translateX(-50%) scale(1.5);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.6);
+}
+
+.timeline-item h3, .timeline-item p {
+  color: white;
+  z-index: 10;
+}
+
+.timeline-item p {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.timeline-item:hover p {
+  opacity: 1;
+}
