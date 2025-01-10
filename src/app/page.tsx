@@ -49,7 +49,7 @@ function DashedLine() {
 export default function Home() {
   return (
     <main className="max-w-[1060px] w-full mx-auto">
-      <div className="flex flex-col items-center justify-center h-[500px] sm:h-[480px] gap-2 mt-8">
+      <div className="flex flex-col items-center justify-center h-[600px] sm:h-[480px] gap-2 mt-24">
         <h1 className="text-[45px] font-bold text-center">
           Your AI Game Master{' '}
           <span className="gradient-text text-transparent animate-gradient">
@@ -63,7 +63,7 @@ export default function Home() {
           your character across multiple campaigns, and dive into endless worlds.
         </p>
 
-        <CTAButton />
+        <CTAButton size="large" />
       </div>
 
       <section className="w-full flex flex-col items-center justify-center lgp:items-start lgp:justify-start gap-8 lgp:gap-6">
@@ -472,11 +472,11 @@ export default function Home() {
     Join the future of tabletop gaming. Create your character, choose your setting, and let our
     AI Game Master guide you through unforgettable adventures - all from your mobile device.
   </p>
-  <div className="relative z-10 transform hover:scale-105 transition-transform duration-300">
-    <CTAButton size="large" />
+  <div className="relative z-100">
+  <CTAButton size="large" />
   </div>
   <p className="relative z-10 text-sm text-white/80 mt-6 font-medium">
-    +100 players have already joined
+  🔥 +100 players have already joined
   </p>
 </div>
     </main>

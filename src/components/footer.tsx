@@ -25,7 +25,7 @@ export function Footer() {
           </Link>
         </div>
       </div>
-      &copy; 2024 Q|uestoria, All Rights Reserved.
+      &copy; 2025 Questoria, All Rights Reserved.
     </footer>
   )
 }
