@@ -42,8 +42,8 @@ export const metadata: Metadata = {
   applicationName: 'diceverse',
   icons: {
     icon: './favicon.ico',
-    apple: './logodiceverse-apple-icon.png',
-    shortcut: './logodiceverse-apple-icon.png',
+    apple: './questoria-apple-icon.png',
+    shortcut: './questoria-apple-icon.png',
   },
 }
 

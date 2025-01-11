@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import diceverse from '../../public/logodiceverse.png'
+import questoria from '../../public/logoquestoria.png'
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="flex flex-col md:flex-row items-center justify-center gap-5">
         <div className="w-[170px] h-[50px] relative">
           <Link href="/" className="w-full h-full">
-            <Image src={diceverse} alt="diceverse logo" fill priority quality={100} />
+            <Image src={questoria} alt="questoria logo" fill priority quality={100} />
           </Link>
         </div>
 
@@ -25,7 +25,7 @@ export function Footer() {
           </Link>
         </div>
       </div>
-      &copy; 2025 diceverse, All Rights Reserved.
+      &copy; 2024 Q|uestoria, All Rights Reserved.
     </footer>
   )
 }

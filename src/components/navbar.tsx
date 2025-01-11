@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import diceverse from '../../public/logodiceverse.png';
+import questoria from '../../public/logoquestoria.png'
 import { WaitlistModal } from './WaitlistModal'; // Asegúrate de importar correctamente el modal
 
 type NavbarMenuType = {
@@ -30,7 +30,7 @@ export function Navbar() {
         <div className="w-[170px] h-[50px] relative shrink-0">
           <Link href="/" className="w-full h-full block">
             <Image
-              src={diceverse}
+              src={questoria}
               alt="diceverse logo"
               fill
               priority
