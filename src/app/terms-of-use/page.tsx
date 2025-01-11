@@ -11,8 +11,8 @@ const sections: SectionsType[] = [
     url: '/terms-of-use#introducao',
   },
   {
-    title: 'O que é a plataforma questoria',
-    url: '/terms-of-use#o-que-e-a-plataforma-questoria',
+    title: 'O que é a plataforma diceverse',
+    url: '/terms-of-use#o-que-e-a-plataforma-diceverse',
   },
   {
     title: 'Uso do aplicativo - Forma de utilização',
@@ -65,7 +65,7 @@ export default function TermsOfUse() {
     <main className="max-w-[920px] w-full mx-auto mt-[170px]">
       <div className="flex flex-col gap-8 mb-8">
         <h1 className="text-center font-madefor-display text-5xl font-bold text-white">
-          Termos de Uso da questoria
+          Termos de Uso da diceverse
         </h1>
 
         <p className="text-[18px] font-medium text-center">
@@ -93,9 +93,9 @@ export default function TermsOfUse() {
         <SectionTitle title="Introdução" />
 
         <SectionText>
-          Bem-vindo ao site da questoria, localizado em www.questoriamusic.com (o
+          Bem-vindo ao site da diceverse, localizado em www.diceversemusic.com (o
           “Site”). Este Acordo contém os termos e condições que regem o uso do
-          Site e da plataforma de distribuição musical oferecida pela questoria.
+          Site e da plataforma de distribuição musical oferecida pela diceverse.
         </SectionText>
 
         <SectionText>
@@ -105,10 +105,10 @@ export default function TermsOfUse() {
         </SectionText>
 
         <SectionText>
-          A questoria reserva-se o direito de revisar este Acordo, a seu exclusivo
+          A diceverse reserva-se o direito de revisar este Acordo, a seu exclusivo
           critério, a qualquer momento e sem aviso prévio ao usuário. É
           responsabilidade do usuário visitar esta página
-          (www.questoriamusic.com/terms-of-use) periodicamente para garantir sua
+          (www.diceversemusic.com/terms-of-use) periodicamente para garantir sua
           aceitação contínua dos Termos de Uso. O uso continuado do Site e da
           plataforma, após a publicação de uma versão revisada destes Termos de
           Uso, constitui a aceitação obrigatória de tais revisões.
@@ -123,20 +123,20 @@ export default function TermsOfUse() {
 
         <SectionText>
           Todo o conteúdo, incluindo, sem limitação, textos, gráficos, imagens,
-          logotipos e software, disponível no Site é de propriedade da questoria ou
+          logotipos e software, disponível no Site é de propriedade da diceverse ou
           de seus licenciadores e está protegido por leis de direitos autorais,
           marcas registradas e outras leis de propriedade intelectual. Você não
           pode modificar, copiar, reproduzir, republicar, fazer upload, postar,
           transmitir ou distribuir de qualquer forma qualquer material do Site
-          sem a permissão prévia por escrito da questoria.
+          sem a permissão prévia por escrito da diceverse.
         </SectionText>
 
         <SectionText>
-          A questoria não será responsável por quaisquer danos diretos, indiretos,
+          A diceverse não será responsável por quaisquer danos diretos, indiretos,
           incidentais, especiais ou consequenciais resultantes do uso ou da
-          incapacidade de usar o Site ou a plataforma, mesmo que a questoria tenha
+          incapacidade de usar o Site ou a plataforma, mesmo que a diceverse tenha
           sido avisada da possibilidade de tais danos. Em nenhuma circunstância
-          a responsabilidade total da questoria por todas as perdas, danos e causas
+          a responsabilidade total da diceverse por todas as perdas, danos e causas
           de ação (seja em contrato, ato ilícito, incluindo, sem limitação,
           negligência, ou de outra forma) excederá o valor que você pagou, se
           houver, para acessar o Site.
@@ -153,7 +153,7 @@ export default function TermsOfUse() {
           Se qualquer disposição destes Termos de Uso for considerada inválida
           ou inexequível, tal disposição será limitada ou eliminada na medida
           mínima necessária para que os Termos de Uso permaneçam em pleno vigor
-          e efeito. A falha da questoria em exercer qualquer direito previsto
+          e efeito. A falha da diceverse em exercer qualquer direito previsto
           nestes Termos de Uso não será considerada uma renúncia de quaisquer
           outros direitos aqui estabelecidos.
         </SectionText>
@@ -166,23 +166,23 @@ export default function TermsOfUse() {
       </section>
 
       <section
-        id="o-que-e-a-plataforma-questoria"
+        id="o-que-e-a-plataforma-diceverse"
         className="w-full flex flex-col gap-4"
       >
-        <SectionTitle title="1. O que é a plataforma questoria:" />
+        <SectionTitle title="1. O que é a plataforma diceverse:" />
 
         <SectionText>
-          A plataforma questoria é um software projetado para oferecer uma ampla
+          A plataforma diceverse é um software projetado para oferecer uma ampla
           gama de soluções e ferramentas destinadas a artistas e selos
           independentes. Ela facilita a gestão eficiente e profissional de
-          carreiras e catálogos musicais através do ambiente digital. A questoria é
+          carreiras e catálogos musicais através do ambiente digital. A diceverse é
           especialmente direcionada a artistas independentes que buscam otimizar
           a distribuição e promoção de seus conteúdos musicais, assim como a
           selos independentes que necessitam de ferramentas avançadas para a
           gestão de seus portfólios.
         </SectionText>
 
-        <SectionSubTitle subtitle="1.1. Soluções oferecidas pela questoria:" />
+        <SectionSubTitle subtitle="1.1. Soluções oferecidas pela diceverse:" />
         <SectionList
           items={[
             'Gestão de conteúdo musical, incluindo o envio de faixas, metadados e capas de álbuns.',
@@ -214,7 +214,7 @@ export default function TermsOfUse() {
         <SectionTitle title="2. Uso do aplicativo - Forma de utilização:" />
 
         <SectionText>
-          Os usuários devem realizar um registro na plataforma questoria para
+          Os usuários devem realizar um registro na plataforma diceverse para
           acessar suas funcionalidades. Isso inclui o envio de músicas,
           gerenciamento de metadados, análise de desempenho e outras ferramentas
           disponibilizadas para a gestão de conteúdo musical. A utilização da
@@ -226,7 +226,7 @@ export default function TermsOfUse() {
         <SectionList
           items={[
             'Os usuários devem fornecer informações precisas e completas durante o processo de registro.',
-            'É necessário concordar com os Termos de Uso e as políticas de privacidade da questoria para completar o registro.',
+            'É necessário concordar com os Termos de Uso e as políticas de privacidade da diceverse para completar o registro.',
           ]}
         />
 
@@ -254,11 +254,11 @@ export default function TermsOfUse() {
         <SectionTitle title="3. Regras para a utilização da plataforma:" />
 
         <SectionText>
-          Os usuários concordam em utilizar a plataforma questoria de acordo com
+          Os usuários concordam em utilizar a plataforma diceverse de acordo com
           todas as leis, regulamentos e os Termos de Uso estabelecidos pela
           empresa. Isso inclui a proibição de atividades ilegais, fraudulentas
           ou que violem direitos de terceiros, como a propriedade intelectual. A
-          questoria reserva-se o direito de suspender ou encerrar contas de
+          diceverse reserva-se o direito de suspender ou encerrar contas de
           usuários e reter receitas, para compensar partes prejudicadas em caso
           de infração às diretrizes mencionadas.
         </SectionText>
@@ -289,9 +289,9 @@ export default function TermsOfUse() {
         <SectionTitle title="4. Envios" />
 
         <SectionText>
-          Ao enviar conteúdos para a plataforma questoria, os usuários declaram
+          Ao enviar conteúdos para a plataforma diceverse, os usuários declaram
           possuir os direitos necessários sobre esses materiais ou ter obtido
-          autorização dos titulares dos direitos. A questoria não reivindica nenhum
+          autorização dos titulares dos direitos. A diceverse não reivindica nenhum
           direito de propriedade sobre o conteúdo fornecido pelos usuários, mas
           pode remover qualquer material que viole os Termos de Uso ou a
           legislação aplicável, sem aviso prévio.
@@ -300,21 +300,21 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="4.1. Direitos sobre o conteúdo:" />
         <SectionList
           items={[
-            'Os usuários garantem que possuem os direitos autorais ou licenças necessárias para o envio de músicas e outros conteúdos musicais para a plataforma questoria.',
+            'Os usuários garantem que possuem os direitos autorais ou licenças necessárias para o envio de músicas e outros conteúdos musicais para a plataforma diceverse.',
           ]}
         />
 
         <SectionSubTitle subtitle="4.2. Autorizações e licenciamento:" />
         <SectionList
           items={[
-            'Os usuários devem obter autorizações adequadas dos titulares dos direitos antes de enviar músicas para distribuição digital através da questoria.',
+            'Os usuários devem obter autorizações adequadas dos titulares dos direitos antes de enviar músicas para distribuição digital através da diceverse.',
           ]}
         />
 
         <SectionSubTitle subtitle="4.3. Remoção de conteúdo:" />
         <SectionList
           items={[
-            'A questoria reserva-se o direito de remover qualquer conteúdo que viole os Termos de Uso ou que seja denunciado por violação de direitos autorais por terceiros.',
+            'A diceverse reserva-se o direito de remover qualquer conteúdo que viole os Termos de Uso ou que seja denunciado por violação de direitos autorais por terceiros.',
           ]}
         />
       </section>
@@ -325,24 +325,24 @@ export default function TermsOfUse() {
       >
         <SectionTitle title="5. Garantias e declarações:" />
         <SectionText>
-          Os usuários garantem que todas as informações fornecidas à questoria são
+          Os usuários garantem que todas as informações fornecidas à diceverse são
           precisas e completas. Além disso, declaram estar devidamente
           autorizados a aceitar os Termos de Uso e utilizar a plataforma
           conforme estabelecido. Qualquer uso indevido da plataforma pode
-          resultar em responsabilização legal por danos causados à questoria ou a
+          resultar em responsabilização legal por danos causados à diceverse ou a
           terceiros.
         </SectionText>
 
         <SectionSubTitle subtitle="5.1. Veracidade das informações:" />
         <SectionList
           items={[
-            'Os usuários são responsáveis por fornecer informações precisas e atualizadas durante o uso da plataforma questoria, tais como nome completo, CPF, email de pagamento, nome artístico ou nome da gravadora, entre outras necessárias para o correto funcionamento dos serviços oferecidos.',
+            'Os usuários são responsáveis por fornecer informações precisas e atualizadas durante o uso da plataforma diceverse, tais como nome completo, CPF, email de pagamento, nome artístico ou nome da gravadora, entre outras necessárias para o correto funcionamento dos serviços oferecidos.',
           ]}
         />
         <SectionSubTitle subtitle="5.2. Responsabilidade por violações:" />
         <SectionList
           items={[
-            'Os usuários são responsáveis por qualquer violação dos Termos de Uso que resulte em danos à questoria ou a terceiros.',
+            'Os usuários são responsáveis por qualquer violação dos Termos de Uso que resulte em danos à diceverse ou a terceiros.',
           ]}
         />
         <SectionSubTitle subtitle="5.3. Consequências legais:" />
@@ -359,7 +359,7 @@ export default function TermsOfUse() {
       >
         <SectionTitle title="6. Objecções, limitações e exclusões:" />
         <SectionText>
-          A questoria reserva-se o direito de limitar ou restringir o acesso de
+          A diceverse reserva-se o direito de limitar ou restringir o acesso de
           qualquer usuário à plataforma, caso haja suspeita de violação dos
           Termos de Uso, atividades fraudulentas ou que possam prejudicar a
           integridade da plataforma. Modificações ou suspensões temporárias da
@@ -370,7 +370,7 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="6.1. Suspensão de contas:" />
         <SectionList
           items={[
-            'A questoria pode suspender temporariamente ou permanentemente contas de usuários que violem repetidamente os Termos de Uso ou participem de atividades fraudulentas.',
+            'A diceverse pode suspender temporariamente ou permanentemente contas de usuários que violem repetidamente os Termos de Uso ou participem de atividades fraudulentas.',
           ]}
         />
 
@@ -392,7 +392,7 @@ export default function TermsOfUse() {
       <section id="indenizacoes" className="w-full flex flex-col gap-4">
         <SectionTitle title="7. Indenizações:" />
         <SectionText>
-          Os usuários concordam em indenizar, defender e isentar a questoria, seus
+          Os usuários concordam em indenizar, defender e isentar a diceverse, seus
           diretores, funcionários e agentes de quaisquer reclamações, demandas
           ou ações judiciais, incluindo honorários advocatícios, decorrentes do
           uso da plataforma em desacordo com estes Termos de Uso ou com a
@@ -402,7 +402,7 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="7.1. Responsabilidade por danos:" />
         <SectionList
           items={[
-            'Os usuários são responsáveis por quaisquer danos causados à questoria ou a terceiros devido ao uso indevido da plataforma.',
+            'Os usuários são responsáveis por quaisquer danos causados à diceverse ou a terceiros devido ao uso indevido da plataforma.',
           ]}
         />
         <SectionSubTitle subtitle="7.2. Custos legais:" />
@@ -415,7 +415,7 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="7.3. Defesa contra reclamações:" />
         <SectionList
           items={[
-            'A questoria tem o direito de assumir o controle da defesa em qualquer reclamação que exija indenização pelos usuários.',
+            'A diceverse tem o direito de assumir o controle da defesa em qualquer reclamação que exija indenização pelos usuários.',
           ]}
         />
       </section>
@@ -423,9 +423,9 @@ export default function TermsOfUse() {
       <section id="encerramento" className="w-full flex flex-col gap-4">
         <SectionTitle title="8. Encerramento:" />
         <SectionText>
-          Os usuários têm o direito de encerrar suas contas na questoria a qualquer
+          Os usuários têm o direito de encerrar suas contas na diceverse a qualquer
           momento, seguindo os procedimentos estabelecidos na plataforma. A
-          questoria também se reserva o direito de encerrar contas de usuários que
+          diceverse também se reserva o direito de encerrar contas de usuários que
           infrinjam repetidamente os Termos de Uso ou envolvam-se em atividades
           fraudulentas ou prejudiciais.
         </SectionText>
@@ -433,21 +433,21 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="8.1 Encerramento de contas:" />
         <SectionList
           items={[
-            'Os usuários podem solicitar o encerramento de suas contas através do suporte na plataforma questoria.',
+            'Os usuários podem solicitar o encerramento de suas contas através do suporte na plataforma diceverse.',
           ]}
         />
 
         <SectionSubTitle subtitle="8.2 Efeitos do encerramento:" />
         <SectionList
           items={[
-            'Ao encerrar a conta, os usuários podem perder o acesso a conteúdos e funcionalidades associadas à plataforma questoria.',
+            'Ao encerrar a conta, os usuários podem perder o acesso a conteúdos e funcionalidades associadas à plataforma diceverse.',
           ]}
         />
 
         <SectionSubTitle subtitle="8.3 Consequências do encerramento:" />
         <SectionList
           items={[
-            'A questoria pode reter informações e/ou royalties do usuário conforme necessário para cumprir obrigações legais ou resolver disputas pendentes.',
+            'A diceverse pode reter informações e/ou royalties do usuário conforme necessário para cumprir obrigações legais ou resolver disputas pendentes.',
           ]}
         />
       </section>
@@ -455,17 +455,17 @@ export default function TermsOfUse() {
       <section id="notificacao" className="w-full flex flex-col gap-4">
         <SectionTitle title="9. Notificação:" />
         <SectionText>
-          A questoria poderá enviar notificações aos usuários por e-mail, mensagens
+          A diceverse poderá enviar notificações aos usuários por e-mail, mensagens
           dentro da plataforma ou outros meios de comunicação disponíveis. Os
           usuários são responsáveis por manter suas informações de contato
           atualizadas para receber essas notificações importantes sobre a
-          plataforma questoria.
+          plataforma diceverse.
         </SectionText>
 
         <SectionSubTitle subtitle="9.1. Formas de notificação:" />
         <SectionList
           items={[
-            'Notificações por e-mail para o endereço fornecido durante o registro na plataforma. - Mensagens dentro da própria plataforma questoria, visíveis ao fazer login.',
+            'Notificações por e-mail para o endereço fornecido durante o registro na plataforma. - Mensagens dentro da própria plataforma diceverse, visíveis ao fazer login.',
           ]}
         />
         <SectionSubTitle subtitle="9.2. Atualização de informações:" />
@@ -500,7 +500,7 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="10.1. Aplicabilidade da lei brasileira:" />
         <SectionList
           items={[
-            'Todos os aspectos dos Termos de Uso da questoria são regidos pela legislação brasileira, incluindo interpretação e execução.',
+            'Todos os aspectos dos Termos de Uso da diceverse são regidos pela legislação brasileira, incluindo interpretação e execução.',
           ]}
         />
         <SectionSubTitle subtitle="10.2. Resolução amigável de disputas:" />
@@ -513,7 +513,7 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="10.3. Competência do foro:" />
         <SectionList
           items={[
-            'Em caso de litígio não resolvido amigavelmente, as partes concordam com o foro da cidade de Uruaçu como competente para resolver quaisquer disputas decorrentes dos Termos de Uso da questoria.',
+            'Em caso de litígio não resolvido amigavelmente, as partes concordam com o foro da cidade de Uruaçu como competente para resolver quaisquer disputas decorrentes dos Termos de Uso da diceverse.',
           ]}
         />
       </section>
@@ -524,9 +524,9 @@ export default function TermsOfUse() {
       >
         <SectionTitle title="11. Conteúdo e propriedade dos direitos autorais:" />
         <SectionText>
-          Todo o conteúdo enviado pelos usuários à plataforma questoria continua
+          Todo o conteúdo enviado pelos usuários à plataforma diceverse continua
           sendo de propriedade dos respectivos titulares dos direitos autorais.
-          A questoria não reivindica qualquer direito de propriedade sobre o
+          A diceverse não reivindica qualquer direito de propriedade sobre o
           conteúdo fornecido pelos usuários, exceto os necessários para operar a
           plataforma conforme estabelecido nestes Termos de Uso.
         </SectionText>
@@ -534,20 +534,20 @@ export default function TermsOfUse() {
         <SectionSubTitle subtitle="11.1. Direitos sobre o conteúdo enviado:" />
         <SectionList
           items={[
-            'Os usuários mantêm todos os direitos autorais e outros direitos de propriedade intelectual sobre o conteúdo que enviam para a plataforma questoria.',
+            'Os usuários mantêm todos os direitos autorais e outros direitos de propriedade intelectual sobre o conteúdo que enviam para a plataforma diceverse.',
           ]}
         />
         <SectionSubTitle subtitle="11.2. Licenciamento e distribuição:" />
         <SectionList
           items={[
-            'Ao enviar conteúdo, os usuários concedem à questoria uma licença não exclusiva para distribuir, exibir e promover o conteúdo conforme necessário para operar a plataforma.',
+            'Ao enviar conteúdo, os usuários concedem à diceverse uma licença não exclusiva para distribuir, exibir e promover o conteúdo conforme necessário para operar a plataforma.',
           ]}
         />
 
-        <SectionSubTitle subtitle="11.3. Uso limitado pela questoria:" />
+        <SectionSubTitle subtitle="11.3. Uso limitado pela diceverse:" />
         <SectionList
           items={[
-            'A questoria utiliza o conteúdo apenas conforme necessário para os fins estabelecidos nos Termos de Uso, sem assumir nenhum direito de propriedade sobre o mesmo.',
+            'A diceverse utiliza o conteúdo apenas conforme necessário para os fins estabelecidos nos Termos de Uso, sem assumir nenhum direito de propriedade sobre o mesmo.',
           ]}
         />
       </section>
@@ -558,30 +558,30 @@ export default function TermsOfUse() {
       >
         <SectionTitle title="12. Reclamação e Violação de Direitos Autorais:" />
         <SectionText>
-          A questoria respeita os direitos de propriedade intelectual de terceiros.
+          A diceverse respeita os direitos de propriedade intelectual de terceiros.
           Se você acredita que seu trabalho foi copiado de forma que constitua
           violação de direitos autorais, entre em contato conosco pelo e-mail
-          contact@questoriamusic.com para resolver a questão de forma adequada e
+          contact@diceversemusic.com para resolver a questão de forma adequada e
           legal.
         </SectionText>
 
         <SectionSubTitle subtitle="12.1. Processo de reclamação:" />
         <SectionList
           items={[
-            'Os titulares de direitos autorais podem enviar uma notificação formal à questoria indicando a violação de seus direitos.',
+            'Os titulares de direitos autorais podem enviar uma notificação formal à diceverse indicando a violação de seus direitos.',
           ]}
         />
-        <SectionSubTitle subtitle="12.2. Resposta da questoria:" />
+        <SectionSubTitle subtitle="12.2. Resposta da diceverse:" />
         <SectionList
           items={[
-            'A questoria analisará a reclamação e tomará as medidas apropriadas, que podem incluir a remoção do conteúdo infrator da plataforma.',
+            'A diceverse analisará a reclamação e tomará as medidas apropriadas, que podem incluir a remoção do conteúdo infrator da plataforma.',
           ]}
         />
 
         <SectionSubTitle subtitle="12.3. Proteção dos direitos:" />
         <SectionList
           items={[
-            'A questoria colaborará com os titulares de direitos autorais para resolver disputas de forma justa e eficaz, visando proteger os direitos de propriedade intelectual. Se você tiver alguma dúvida sobre estes Termos de Uso, por favor, entre em contato conosco através do e-mail: contact@questoriamusic.com.',
+            'A diceverse colaborará com os titulares de direitos autorais para resolver disputas de forma justa e eficaz, visando proteger os direitos de propriedade intelectual. Se você tiver alguma dúvida sobre estes Termos de Uso, por favor, entre em contato conosco através do e-mail: contact@diceversemusic.com.',
           ]}
         />
       </section>

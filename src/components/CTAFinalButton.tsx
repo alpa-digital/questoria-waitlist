@@ -8,7 +8,7 @@ export function CTAFinalButton() {
 
   return (
     <button 
-      onClick={() => router.push('https://contate.me/questoria')}
+      onClick={() => router.push('https://contate.me/diceverse')}
       className="px-12 py-4 bg-black/80 hover:bg-black/90 border border-gray-800 
                 rounded-full text-white font-medium flex items-center gap-2
                 transition-all duration-300 backdrop-blur-sm"

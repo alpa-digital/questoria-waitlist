@@ -1,4 +1,4 @@
-// File: /Users/franciscoalepalacios/questoria-waitlist/src/app/layout.tsx
+// File: /Users/franciscoalepalacios/diceverse-waitlist/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

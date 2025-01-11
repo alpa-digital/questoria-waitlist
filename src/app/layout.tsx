@@ -12,18 +12,18 @@ import { Navbar } from '../components/navbar'
 import { Footer } from '../components/footer'
 
 export const metadata: Metadata = {
-  title: 'Home | Questoria',
+  title: 'Home | diceverse',
   description:
-    'A questoria facilita a conexão entre artistas e as principais plataformas digitais, oferecendo distribuição global e suporte especializado',
+    'A diceverse facilita a conexão entre artistas e as principais plataformas digitais, oferecendo distribuição global e suporte especializado',
   keywords: [
-    'questoria',
-    'questoria digital music',
+    'diceverse',
+    'diceverse digital music',
     'music',
     'artist',
     'música',
     'artista',
     'distribuidora musical',
-    'questoria distribuidora digital',
+    'diceverse distribuidora digital',
   ],
   authors: [
     {
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
       url: 'https://github.com/PietroRhyan',
     },
   ],
-  applicationName: 'questoria',
+  applicationName: 'diceverse',
   icons: {
     icon: './favicon.ico',
-    apple: './logoquestoria-apple-icon.png',
-    shortcut: './logoquestoria-apple-icon.png',
+    apple: './logodiceverse-apple-icon.png',
+    shortcut: './logodiceverse-apple-icon.png',
   },
 }
 

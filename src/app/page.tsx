@@ -58,7 +58,7 @@ export default function Home() {
         </h1>
 
         <p className="max-w-[675px] w-full text-center text-[18px] mb-8">
-          Experience the future of  RPGs with Questoria: An AI-powered experience 
+          Experience the future of  RPGs with diceverse: An AI-powered experience 
           that brings immersive adventures to your pocket. Play solo or with friends, develop 
           your character across multiple campaigns, and dive into endless worlds.
         </p>
@@ -81,7 +81,7 @@ export default function Home() {
         <div className="bg-marfin text-black rounded-3xl p-8 flex flex-col md:flex-row items-center justify-center gap:6 md:justify-between md:gap-10">
           <div className="flex flex-col gap-2 ">
             <h3 className="text-[18px] font-madefor-display font-bold text-black">
-              Why Questoria?
+              Why diceverse?
             </h3>
             <p className="text-[15px]">
               Experience tabletop RPGs reimagined for the modern era. Our AI Game Master adapts 
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
-              alt="Questoria Character Creation Screen"
+              alt="diceverse Character Creation Screen"
               className="object-scale-down"
               objectFit="fit"
               quality={100}
@@ -138,7 +138,7 @@ export default function Home() {
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
-              alt="Questoria Character Creation Screen"
+              alt="diceverse Character Creation Screen"
               className="object-scale-down"
               objectFit="fit"
               quality={100}
@@ -155,7 +155,7 @@ export default function Home() {
             Play Solo or Join Forces
           </h3>
           <p className="text-[15px] leading-7">
-            Whether you prefer solo adventures or want to team up with friends, Questoria 
+            Whether you prefer solo adventures or want to team up with friends, diceverse 
             adapts to your playstyle. Engage in competitive scenarios, join cooperative 
             campaigns, or craft your own worlds and share them with the community. With 
             multiple game settings and dice systems, every session is a unique experience.
@@ -198,7 +198,7 @@ export default function Home() {
           <div className="w-[calc(100%-2px)] h-[calc(100%-2px)] z-20 relative rounded-2xl overflow-hidden bg-[#000]">
             <Image
               src="/images/character-creation.png"
-              alt="Questoria Character Creation Screen"
+              alt="diceverse Character Creation Screen"
               className="object-scale-down"
               objectFit="fit"
               quality={100}
@@ -222,7 +222,7 @@ export default function Home() {
             Your Schedule, Your Rules
           </h3>
           <p className="text-[15px] leading-7 mb-5">
-            No more scheduling conflicts or dependency on other players. Questoria offers 
+            No more scheduling conflicts or dependency on other players. diceverse offers 
             complete freedom to play whenever and wherever you want. Choose from various 
             game settings, create custom content, and share your creations with the community.
           </p>
@@ -408,7 +408,7 @@ export default function Home() {
     {/* Pricing Header */}
     <div className="mb-6">
       <h3 className="text-2xl font-bold mb-2">Founder's Access</h3>
-      <p className="text-gray-400 text-sm">Be among the first to shape Questoria</p>
+      <p className="text-gray-400 text-sm">Be among the first to shape diceverse</p>
     </div>
 
     {/* Price */}
@@ -455,7 +455,7 @@ export default function Home() {
 <div className="w-full flex flex-col items-center justify-center py-20 rounded-3xl shadow-[0_0_100px_rgba(168,85,247,0.2)] relative overflow-hidden">
   {/* Background Image */}
   <Image
-    src="/bannerquestoria.png"
+    src="/bannerdiceverse.png"
     alt="Background"
     fill
     className="object-cover opacity-20"

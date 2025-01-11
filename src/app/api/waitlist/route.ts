@@ -5,7 +5,7 @@ import { Resend } from 'resend';
 const resend = new Resend('re_GP2JqWcc_9e9LMq98RKNGGHwxnGGPNVbm');
 
 // ID de la audiencia (audience) en Resend - asegúrate de reemplazar esto con tu ID real
-const QUESTORIA_AUDIENCE_ID = '9a76ac0e-30a9-4db7-8bb1-7590baca15cb';
+const diceverse_AUDIENCE_ID = '9a76ac0e-30a9-4db7-8bb1-7590baca15cb';
 
 export async function POST(request: Request) {
   try {
@@ -14,17 +14,17 @@ export async function POST(request: Request) {
 
     // Primero, enviar el correo electrónico
     const emailData = await resend.emails.send({
-      from: 'Questoria <onboarding@resend.dev>',
+      from: 'diceverse <onboarding@resend.dev>',
       to: [email],
-      subject: 'Welcome to Questoria Waitlist!',
+      subject: 'Welcome to diceverse Waitlist!',
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
-          <h1 style="color: #6366f1;">Welcome to Questoria!</h1>
+          <h1 style="color: #6366f1;">Welcome to diceverse!</h1>
           <p>Thank you for joining our waitlist. We're thrilled to have you on board!</p>
           <p>We'll keep you updated on our progress and let you know as soon as we launch.</p>
           <br/>
           <p>Best regards,</p>
-          <p>The Questoria Team</p>
+          <p>The diceverse Team</p>
         </div>
       `,
     });
@@ -36,7 +36,7 @@ export async function POST(request: Request) {
       firstName: firstName,
       lastName: lastName,
       unsubscribed: false,
-      audienceId: QUESTORIA_AUDIENCE_ID,
+      audienceId: diceverse_AUDIENCE_ID,
     });
     console.log('Contact created successfully:', contactData); // Para debugging
 
